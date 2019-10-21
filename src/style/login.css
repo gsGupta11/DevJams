@@ -1,0 +1,232 @@
+.logo{
+    margin-left:2.5%;
+    display: inline-block;
+    height: 4%;
+    width:7%;
+    float: left;
+    margin-top:40px;
+}
+
+.topnav {
+    /* display:inline-block; */
+    margin-top:3.5%;
+    overflow: hidden;
+    margin-left:740px;
+    width:100%;
+  }
+  a{
+      margin-right:2%;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+ 
+  .topnav a.active {
+    border-bottom: 3px solid #08F8FF;
+  }
+.exchange{
+    clear: both;
+    width:420px;
+}
+.centerlogo{
+    position: relative;
+    top:270px;
+    left:180px;
+}
+.tagline{
+    color: #08F8FF;
+    font-weight: 500;
+    font-size:20px;
+}
+
+.buttons{
+    position: relative;
+    top:380px;  
+    left:180px;
+}
+.activ:hover{
+    background: #1B2FF9;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    border:none;
+}
+.activ{
+    background: #1B2FF9;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    border:none;
+}
+.disable:hover{
+    background: #1B2FF9;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    color: #08F8FF;
+    background: none;    
+    border:none;
+
+}
+.disable{
+    background: #1B2FF9;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 30px;
+    color: #08F8FF;
+    background: none;    
+    border:none;
+}
+
+
+#info{
+    margin-top:30%;
+    text-align:center;
+    margin-bottom:5%;
+}
+.learn{
+    padding-left:10%;
+    padding-right:10%;
+
+}
+.learn:hover{
+    padding-left:10%;
+    padding-right:10%;
+}
+.infoFoot{
+    margin-left:78px;
+    padding-top:230px;
+    background: white;
+    border-radius:5%;
+}
+
+.Header{
+    position: fixed;
+    clear:both;
+}
+.prod{
+    text-align:center;
+    color:white;
+    margin-left:16%;
+}
+
+.proddiv{
+    margin-bottom:10%;
+}
+.service{
+    display:block;
+    width:80%;
+}
+
+.prodcont{
+    /* margin-top:20%; */
+    background: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    max-height:450px;
+    overflow-y:scroll;
+}
+::-webkit-scrollbar {
+    /* // Width of vertical scroll bar */
+    width: 8px;
+    /* // Height of horizontal scroll bar */
+    height: 10px;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+  }
+.coverprod{
+    margin-top:15%;
+}
+.bluecol{
+    padding:40%;
+    background: #1B2FF9;
+    border-radius:8%;
+    width:20%;
+}
+.cardf{
+    margin-right:2%;
+    margin-bottom:2.8%;
+    cursor:pointer;
+}
+.cardi{
+    margin-left:8.5%;
+    margin-bottom:2.8%;
+    cursor:pointer;
+}
+.card{
+    margin-left:1%;
+    margin-bottom:2.8%;
+    cursor:pointer;
+}
+.Productlogo{
+    width:13%;
+    display:block;
+    position: relative;
+    top:110px;
+    z-index:1;
+}
+.hide{
+    display: none;
+}
+
+.clickpopup{
+    position: relative;
+    background: white;
+    margin-bottom:6px;
+    margin-top:5%;
+    padding: 5%;
+    border-radius:20px;
+    width:80%;
+    top:35px;
+}
+.code{
+    background: #eee;
+    padding: 8px;
+    padding-right: 280px;
+    border-radius:5px;
+    margin-top:2%;
+    font-weight:500;
+}
+.bluebox{
+    padding:40%;
+    background: #1B2FF9;
+    border-radius:8%;
+    width:10px;
+}
+.compat{
+    color:#08F8FF;
+    font-weight: 700;
+    margin-top:5px;
+    margin-left: 27%;
+}
+.money{
+    color:black;
+    font-weight: 700;
+    margin-left:70px;
+}
+.currency{
+    position: relative;
+    display: block;
+    width:10%;
+    left:-125px;
+    top:29px;
+}
+
+.cross{
+    position:relative;
+    left:470px;
+    top:-40px;
+    cursor: pointer;
+}
+
