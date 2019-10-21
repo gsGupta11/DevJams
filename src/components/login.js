@@ -1,12 +1,15 @@
 import React from 'react';
 import '../style/login.css';
-import logo from '../style/Logo.svg';
-import Exchainged from '../style/Exchainged.png';
+import logo from '../style/Logo.png';
+import Exchainged from '../style/main.png';
 import sdk from '../style/sdk.svg';
 import marketplace from '../style/marketplace.svg';
 import Productlogo from '../style/Productlogo.svg';
 import Currency from '../style/Currency.svg';
 import Cross from '../style/cross.svg';
+import Land from '../style/landing.svg';
+import developer from '../style/developers.svg';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
 class Login extends React.Component {
 
@@ -28,25 +31,37 @@ class Login extends React.Component {
         b.className="img img-responsive Productlogo center-block";
         c.className="hide";
     }
-
+    handleNav=(e)=>{
+        var a=document.getElementsByClassName("home")[0];
+        var b=document.getElementsByClassName("news")[0];
+        var c=document.getElementsByClassName("product")[0];
+        var d=document.getElementsByClassName("contact")[0];
+        a.className="home";
+        b.className="news";
+        c.className="product";
+        d.className="contact";
+        e.className="active";
+    }
 
     render(){
         return(
-            <div className="landingPage">
+
+            <div className="landingPage" data-spy="scroll" data-target=".topnav" data-offset="50">
 <div className="abcd">
             <div className="Header">
+            
                     <img src={logo} className="img img-responsive logo"/>
-                                   
                                 <div className="topnav">
-                                    <a href="#home" class="active">Home</a>
-                                    <a href="#news">Target Audience</a>
-                                    <a href="#contact">Products</a>
-                                    <a href="#">Contact Us</a>
+                                    <a href="#home" className="active home" onClick={this.handleNav}>Home</a>
+                                    <a href="#news" className="news" onClick={this.handleNav}>Target Audience</a>
+                                    <a href="#contact" className="product" onClick={this.handleNav}>Products</a>
+                                    <a href="#" className="contact">Contact Us</a>
                                    
                             </div>
             </div>
+            
             <div className="clearfix"></div>
-
+            
                     <div className="centerlogo">
                     <img src={Exchainged} className="img img-responsive exchange"/>
                     <p className="tagline">Chained.Yet free.</p>
@@ -222,12 +237,13 @@ class Login extends React.Component {
                                     <br/>
                                     App Yahin banegi!<br/><br/><br/>
                                     <b>How to use</b><br/><br/>
-                                    <span className="code"><a href="#">>Learn how to use!</a></span>
+                                    <span className="code"><a href="/market">>Learn how to use!</a></span>
                             </div>
 
 
                     </div>
-
+                    {/* <img src={Land} className="img img-responsive land"/> */}
+                    {/* <img src={developer} className="img img-responsive developer"/> */}
             </div>
                 )
     }

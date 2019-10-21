@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.02" height="39.237" viewBox="0 0 48.02 39.237">
+  <g id="OrdersTable" transform="translate(-68 -484)">
+    <g id="list" transform="translate(68 484)">
+      <path id="Path_2266" data-name="Path 2266" d="M0,0H9.536V9.783H0ZM0,0" fill="#08f8ff"/>
+      <path id="Path_2267" data-name="Path 2267" d="M149.3,0h34.158V9.783H149.3Zm0,0" transform="translate(-135.436)" fill="#08f8ff"/>
+      <path id="Path_2268" data-name="Path 2268" d="M0,147.008H9.536v9.536H0Zm0,0" transform="translate(0 -132.157)" fill="#1626cc"/>
+      <path id="Path_2269" data-name="Path 2269" d="M149.3,147.008h34.159v9.536H149.3Zm0,0" transform="translate(-135.436 -132.157)" fill="#1626cc"/>
+      <path id="Path_2270" data-name="Path 2270" d="M0,294.012H9.536v9.536H0Zm0,0" transform="translate(0 -264.311)" fill="#07dee6"/>
+      <path id="Path_2271" data-name="Path 2271" d="M149.3,294.012h34.159v9.536H149.3Zm0,0" transform="translate(-135.436 -264.311)" fill="#07dee6"/>
+    </g>
+  </g>
+</svg>
